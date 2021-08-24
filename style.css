@@ -1,0 +1,26 @@
+*{
+    border:1px solid red;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.orderComp{
+    /* height: 100vh; */
+    min-width:30%;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    border:1px solid grey
+}
+
+.annualPlan{
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
