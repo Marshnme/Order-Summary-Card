@@ -7,7 +7,7 @@
     height:100%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 .orderComp{
     /* height: 100vh; */
@@ -15,12 +15,20 @@
     display:flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
-    border:1px solid grey
+    border:1px solid blue
+}
+
+.summary{
+    width:60%;
+    text-align: center;
 }
 
 .annualPlan{
     display:flex;
+    min-width:80%;
     flex-flow: row nowrap;
-    align-items: center;
+    align-items:center;
+    justify-content:space-evenly;
+    background: rgb(227, 227, 248);
+    margin-bottom:10%;
 }
