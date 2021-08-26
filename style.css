@@ -1,5 +1,13 @@
 *{
-    border:1px solid red;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    /* border:1px solid red; */
+}
+body{
+    height:100%;
+    width: 100%;
+    background:rgb(232, 238, 247)
 }
 
 .container{
@@ -11,13 +19,31 @@
 }
 .orderComp{
     /* height: 100vh; */
-    min-width:30%;
+    
+    margin:10px;
     display:flex;
     flex-flow: column nowrap;
     align-items: center;
-    border:1px solid blue
+    /* border:1px solid clear; */
+    border-radius: 20px;
+    background:white;
 }
 
+.imgParent{
+    min-width:100%;
+
+}
+
+.heroImg{
+    min-width:100%;
+    border-top-left-radius:15px;
+    border-top-right-radius:15px;
+}
+.summaryParent{
+    display:Flex;
+    flex-flow:column nowrap;
+    align-items: center;
+}
 .summary{
     width:60%;
     text-align: center;
@@ -26,9 +52,30 @@
 .annualPlan{
     display:flex;
     min-width:80%;
+    height:40%;
     flex-flow: row nowrap;
     align-items:center;
     justify-content:space-evenly;
-    background: rgb(227, 227, 248);
+    background: rgb(248, 248, 255);
+    border-radius: 10px;
     margin-bottom:10%;
+}
+
+.paymentParent{
+    width:80%;
+    height:50%;
+    display:flex;
+    justify-content: center;
+}
+.paymentButton{
+    color:white;
+    height:6vh;
+    width: 100%;
+    background:rgb(56, 42, 225);
+    border:1px solid rgb(56, 42, 225);
+    border-radius: 10px;
+}
+
+.cancelButton{
+    color:grey;
 }
