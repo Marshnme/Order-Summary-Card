@@ -5,8 +5,8 @@
     /* border:1px solid red; */
 }
 body{
-    height:100%;
-    width: 100%;
+    /* height:100%;
+    width: 100%; */
     background:rgb(232, 238, 247)
 }
 
@@ -18,9 +18,9 @@ body{
     align-items: center;
 }
 .orderComp{
-    /* height: 100vh; */
-    
-    margin:10px;
+    height: 75vh;
+    min-width: 40%;
+    margin:90px 50px 0px 50px;
     display:flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -30,12 +30,12 @@ body{
 }
 
 .imgParent{
-    min-width:100%;
+    width:100%;
 
 }
 
 .heroImg{
-    min-width:100%;
+    width:100%;
     border-top-left-radius:15px;
     border-top-right-radius:15px;
 }
@@ -43,16 +43,21 @@ body{
     display:Flex;
     flex-flow:column nowrap;
     align-items: center;
+    margin-top:30px;
 }
 .summary{
-    width:60%;
-    text-align: center;
+    width:75%;
+    text-align:center;
+    margin-top:20px;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .annualPlan{
     display:flex;
     min-width:80%;
-    height:40%;
+    height:100px;
+    margin-top:30px;
     flex-flow: row nowrap;
     align-items:center;
     justify-content:space-evenly;
@@ -63,7 +68,7 @@ body{
 
 .paymentParent{
     width:80%;
-    height:50%;
+    /* height:50%; */
     display:flex;
     justify-content: center;
 }
@@ -74,8 +79,13 @@ body{
     background:rgb(56, 42, 225);
     border:1px solid rgb(56, 42, 225);
     border-radius: 10px;
+    font-size: 20px;
 }
-
+.cancelParent{
+    margin-top:40px;
+}
 .cancelButton{
     color:grey;
+    font-size: 20px;
+    font-weight: bold;
 }
