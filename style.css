@@ -18,19 +18,20 @@ body{
     align-items: center;
 }
 .orderComp{
-    height: 75vh;
-    min-width: 40%;
-    margin:90px 50px 0px 50px;
     display:flex;
     flex-flow: column nowrap;
     align-items: center;
+    min-height: 80%;
+    min-width: 30%;
+    margin:90px 50px 0px 50px;
+    
     /* border:1px solid clear; */
     border-radius: 20px;
     background:white;
 }
 
 .imgParent{
-    width:100%;
+    min-width:100%;
 
 }
 
@@ -45,27 +46,54 @@ body{
     align-items: center;
     margin-top:30px;
 }
+.summaryTitle{
+    font-weight: bold;
+}
 .summary{
     width:75%;
     text-align:center;
-    margin-top:20px;
+    margin-top:5%;
     font-size: 20px;
     line-height: 30px;
+    color:rgb(113, 127, 166);
 }
 
 .annualPlan{
     display:flex;
-    min-width:80%;
-    height:100px;
-    margin-top:30px;
     flex-flow: row nowrap;
     align-items:center;
-    justify-content:space-evenly;
+    justify-content:space-around;
+    min-width:80%;
+    min-height:10vh;
+    margin-top:8%;
+    
     background: rgb(248, 248, 255);
     border-radius: 10px;
     margin-bottom:10%;
 }
 
+.firstGroup{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:10%;
+}
+
+.secondGroup{
+    font-weight:bold;
+}
+
+.annualTitle{
+    color:black;
+    font-weight: bold;
+}
+
+.annualCost{
+    color:#808090;
+    font-weight: bold;
+    margin-top:8%;
+}
 .paymentParent{
     width:80%;
     /* height:50%; */
@@ -82,10 +110,15 @@ body{
     font-size: 20px;
 }
 .cancelParent{
-    margin-top:40px;
+    margin-top:8%;
+    margin-bottom:10%;
 }
 .cancelButton{
     color:grey;
     font-size: 20px;
     font-weight: bold;
+}
+
+.attribution{
+    margin-top:2%;
 }
